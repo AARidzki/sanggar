@@ -19,7 +19,7 @@ body {
 }
 
 .navbar {
-  background-color: #dfa878;
+  /* background-color: #dfa878; */
   box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2) ;
 }
 
@@ -27,11 +27,12 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 1.5rem;
-  /* margin-top: 4rem; */
+  margin-top: 4rem;
 }
 
 .galeris .container .row img{
-  background-color: #f3deba;
+  background-color: #8bc4df;
+  border: none;
 }
 
 
@@ -67,7 +68,7 @@ body {
 }
 
 #galeris {
-  background-color: #f3deba;
+  background-color: #8bc4df;
   
 }
 
@@ -144,9 +145,9 @@ section {
 }
 
 /* Footer */
-.footer {
+/* .footer {
   background-color: #dfa878;
-}
+} */
 
 
 /* Media Queries */
